@@ -19,7 +19,15 @@
 <hr>
 <section>
     <h2>Définition du besoin et objectif</h2>
-    <p>En remplissant un formulaire le plus concis possible, l'utilisateur </p>
+    <p>En remplissant un formulaire le plus concis possible, l'utilisateur obtient une estimation du coût d'utilisation de son véhicule par jour, par mois ou par km.</p>
+    <p>L'estimation prend en compte 5 pôles:</p>
+    <ul>
+        <li>le carburant</li>
+        <li>l'assurance</li>
+        <li>l'entretien</li>
+        <li>le crédit ou la location</li>
+        <li>les péages</li>
+    </ul>
 </section>
 <hr>
 <section>
@@ -72,9 +80,6 @@
 </section>
 <hr>
 <section>
-    <h2>Convention</h2>
-</section>
-<hr>
-<section>
     <h2>Charte graphique</h2>
+    <p>A définir.</p>
 </section>

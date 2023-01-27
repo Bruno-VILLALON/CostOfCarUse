@@ -14,6 +14,55 @@
     <header>
         <h1>Cost Of Car Use</h1>
     </header>
+    <section>
+        <h2>Usage</h2>
+        <form>
+            <!-- Kilométrage annuel -->
+            <input  type="range" 
+                    name="annualKm"
+                    min="1000"
+                    max="50000"
+                    value="15000"
+                    step="500">
+            <label for="annualKm">Kilomètres par an</label>
+
+            <!-- type de conduite -->
+            <div>
+                <input  type="radio"
+                        id="ecoDriving"
+                        name="kindOfDriving"
+                        value="eco">
+               <label for="ecoDriving">Eco</label>
+               <input  type="radio"
+                        id="normalDriving"
+                        name="kindOfDriving"
+                        value="normal"
+                        checked>
+               <label for="normalDriving">Normal</label>
+               <input  type="radio"
+                        id="dynamicDriving"
+                        name="kindOfDriving"
+                        value="dynamic">
+               <label for="dynamicDriving">Dynamique</label>
+            </div>
+            
+            <!-- Péages -->
+
+            <!-- Location ou remboursement crédit -->
+        </form>
+    </section>
+    <section>
+        <h2>Véhicule</h2>
+        <!-- Type de véhicule -->
+        <!-- Type de carburant -->
+        <!-- Prix du carburant -->
+        <!-- Consommation -->
+        <!-- Assurance -->
+        <!-- Distribution -->
+        <form>
+
+        </form>
+    </section>
     <footer>
         <!--
             liste de liens 
