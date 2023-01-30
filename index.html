@@ -28,40 +28,181 @@
 
             <!-- type de conduite -->
             <div>
+                <p>Type de conduite</p>
                 <input  type="radio"
                         id="ecoDriving"
                         name="kindOfDriving"
                         value="eco">
-               <label for="ecoDriving">Eco</label>
-               <input  type="radio"
+                <label for="ecoDriving">Eco</label>
+                <input  type="radio"
                         id="normalDriving"
                         name="kindOfDriving"
                         value="normal"
                         checked>
-               <label for="normalDriving">Normal</label>
-               <input  type="radio"
+                <label for="normalDriving">Normal</label>
+                <input  type="radio"
                         id="dynamicDriving"
                         name="kindOfDriving"
                         value="dynamic">
-               <label for="dynamicDriving">Dynamique</label>
+                <label for="dynamicDriving">Dynamique</label>
             </div>
             
             <!-- Péages -->
+            <div>
+                <p>Péages</p>
+                <input  type="number"
+                        name="tolls"
+                        min="0"
+                        max="1000"
+                        value="0">
+                <label for="tolls"> €</label>
+            </div>
 
             <!-- Location ou remboursement crédit -->
+            <div>
+                <p>Loyer/Mensualité</p>
+                <input  type="number"
+                        name="rent"
+                        min="0"
+                        max="10000"
+                        value="0">
+                <label for="rent"> €/mois</label>
+            </div>
         </form>
     </section>
     <section>
         <h2>Véhicule</h2>
-        <!-- Type de véhicule -->
-        <!-- Type de carburant -->
-        <!-- Prix du carburant -->
-        <!-- Consommation -->
-        <!-- Assurance -->
-        <!-- Distribution -->
         <form>
+            <!-- Type de véhicule -->
+            <div>
+                <p>Type de véhicule</p>
+                <input  type="radio"
+                        id="cityCar"
+                        name="carType"
+                        value="cityCar">
+                <label for="cityCar">Citadine</label>
+                <input  type="radio"
+                        id="compact"
+                        name="carType"
+                        value="compact"
+                        checked>
+                <label for="compact">Compact</label>
+                <input  type="radio"
+                        id="family"
+                        name="carType"
+                        value="family">
+                <label for="family">Familiale/Suv</label>
+                <input  type="radio"
+                        id="allRoad"
+                        name="carType"
+                        value="allRoad">
+                <label for="allRoad">4x4</label>
+                <input  type="radio"
+                        id="sportCar"
+                        name="carType"
+                        value="sportCar">
+                <label for="sportCar">Sportive</label>
+                <input  type="radio"
+                        id="van"
+                        name="carType"
+                        value="van">
+                <label for="van">Van</label>
+            </div>
+
+            <!-- Type de carburant -->
+            <div>
+                <p>Type de carburant</p>
+                <input  type="radio"
+                        id="sp95"
+                        name="fuelType"
+                        value="sp95"
+                        checked>
+                <label for="sp95">SP95</label>
+                <input  type="radio"
+                        id="sp98"
+                        name="fuelType"
+                        value="sp98">
+                <label for="sp98">SP98</label>
+                <input  type="radio"
+                        id="e85"
+                        name="fuelType"
+                        value="e85">
+                <label for="e85">E85</label>
+                <input  type="radio"
+                        id="diesel"
+                        name="fuelType"
+                        value="diesel">
+                <label for="diesel">Gazole</label>
+                <input  type="radio"
+                        id="gpl"
+                        name="fuelType"
+                        value="gpl">
+                <label for="gpl">GPL</label>
+                <input  type="radio"
+                        id="electric"
+                        name="fuelType"
+                        value="electric">
+                <label for="electric">Eléctrique</label>
+            </div>
+
+            <!-- Prix du carburant -->
+            <div>
+                <p>Prix du carburant</p>
+                <input  type="number"
+                        name="fuelPrice"
+                        min="0"
+                        max="10"
+                        value="2">
+                <label for="fuelPrice"> €/litre</label>
+            </div>
+
+            <!-- Consommation -->
+            <div>
+                <p>Consommation</p>
+                <input  type="number"
+                        name="consumption"
+                        min="0"
+                        max="100"
+                        value="6">
+                <label for="consumption"> litres/100kms</label>
+            </div>
+
+            <!-- Assurance -->
+            <div>
+                <p>Loyer/Mensualité</p>
+                <input  type="number"
+                        name="insurance"
+                        min="0"
+                        max="10000"
+                        value="100">
+                <label for="insurance"> €/mois</label>
+            </div>
+
+            <!-- Distribution -->
+            <div>
+                <p>Type de distribution</p>
+                <input  type="radio"
+                        id="unknowDistribution"
+                        name="distributionType"
+                        value="unknowDistribution"
+                        checked>
+                <label for="unknowDistribution">Je ne sais pas</label>
+                <input  type="radio"
+                        id="distributionBelt"
+                        name="distributionType"
+                        value="distributionBelt">
+                <label for="distributionBelt">courroie</label>
+                <input  type="radio"
+                        id="distributionChain"
+                        name="distributionType"
+                        value="distributionChain">
+                <label for="distributionChain">chaîne</label>
+            </div>
 
         </form>
+    </section>
+    <section>
+        <h2>Résultat</h2>
     </section>
     <footer>
         <!--
